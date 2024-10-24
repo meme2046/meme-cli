@@ -23,20 +23,20 @@
     dev-dependencies = ["ipykernel>=6.29.5"]
 
 [tool.hatch.build]
-    packages = ["crypto", "uni_cli", "utils"]
+    packages = ["crypto", "meme_cli", "utils"]
 
 [build-system]
     build-backend = "hatchling.build"
     requires      = ["hatchling"]
 
 [project.scripts]
-    bitget  = "uni_cli.bitget:app"
-    example = "uni_cli.example:app"
-    ms      = "uni_cli.info:ms"
-    os      = "uni_cli.info:os"
-    pst     = "uni_cli.info:print_strf_time"
-    pyv     = "uni_cli.info:py_version"
-    say     = "uni_cli.info:say"
-    sync    = "uni_cli.sync:app"
-    ts      = "uni_cli.info:ts"
-    uuid    = "uni_cli.info:gen_uuid"
+    bitget  = "meme_cli.bitget:app"
+    example = "meme_cli.example:app"
+    ms      = "meme_cli.info:ms"
+    os      = "meme_cli.info:os"
+    pst     = "meme_cli.info:print_strf_time"
+    pyv     = "meme_cli.info:py_version"
+    say     = "meme_cli.info:say"
+    sync    = "meme_cli.sync:app"
+    ts      = "meme_cli.info:ts"
+    uuid    = "meme_cli.info:gen_uuid"
